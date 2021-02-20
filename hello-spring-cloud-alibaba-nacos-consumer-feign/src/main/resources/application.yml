@@ -6,6 +6,13 @@ spring:
       discovery:
         server-addr: 127.0.0.1:8848
 
+    #sentinel仪表盘
+    sentinel:
+      transport:
+        #        该应用sentinel被监测端口
+        port: 8719
+        #        sentinel仪表盘的端口
+        dashboard: localhost:8080
 server:
   port: 9092
 
