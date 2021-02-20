@@ -42,6 +42,13 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
         <!-- Spring Cloud End -->
+
+        <!-- sentinel  start-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+        </dependency>
+        <!-- sentinel  end-->
     </dependencies>
 
     <build>
