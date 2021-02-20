@@ -38,6 +38,13 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
         <!-- Spring Cloud End -->
+
+        <!-- Nacos Config 分布式配置中心客户端  start-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+        <!-- Nacos Config 分布式配置中心客户端  end-->
     </dependencies>
 
     <build>
