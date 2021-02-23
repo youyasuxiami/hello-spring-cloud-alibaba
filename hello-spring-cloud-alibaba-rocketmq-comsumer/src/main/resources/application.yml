@@ -12,4 +12,4 @@ spring:
           # RocketMQ 服务器地址
           namesrv-addr: 192.168.145.201:9876
 server:
-  port: 9093
+  port: 9094
